@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-mini:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-mini</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="simpleframework.war">
+      <element id="artifact" artifact-name="spring-mini:war exploded" />
+    </root>
+  </artifact>
+</component>
